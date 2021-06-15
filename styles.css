@@ -12,6 +12,8 @@
     --view-margin: 2em;
   }
 
+  
+
  html {
      height: 100vh;
      width: 100vw;
@@ -21,7 +23,7 @@ body {
     align-items: center;
     background-color: var(--main-bg-color);
     display: flex;
-    font-family: 'New Spirit','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-family: new-spirit,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     justify-content: center;
     width: 100%;
     height: 100%;
@@ -33,7 +35,7 @@ body {
 
 h1 {
     font-size: 2.5rem;
-    font-weight: bold;
+    font-weight: 700;
     color: var(--main-text-color);
     letter-spacing: .05em;
     /* transition: font-size .2s ease-out; */
