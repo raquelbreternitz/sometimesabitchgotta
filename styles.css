@@ -1,11 +1,25 @@
+:root {
+    --brown: #391319;
+    --tan: #FAE2CA;
+    --orange: #A95421;
+    --lighter-orange: #DB773B;
+
+
+    --main-bg-color: var(--brown);
+    --main-text-color: var(--lighter-orange);
+    --thing-text-color: var(--tan);
+  }
+
 body {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: 'New Spirit','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100vw;
   height: 100vh;
   margin: 0;
+
+  background-color: var(--main-bg-color);
 }
 
 .container {
@@ -14,8 +28,11 @@ body {
 
 h1 {
     font-size: 5em;
+    font-weight: bold;
+    color: var(--main-text-color);
+    letter-spacing: .05em;
 }
 
 .thing-we-gotta {
-    color: blue;
+    color: var(--thing-text-color);
 }
